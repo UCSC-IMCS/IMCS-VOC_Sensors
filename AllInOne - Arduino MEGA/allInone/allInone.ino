@@ -1,15 +1,15 @@
 #define PRE_PIN 2 
 #define PRE_HEAT_SECONDS 10
 
-const int sensorPin0 = A4; //mq2
-const int sensorPin1 = A7; //mq3
-const int sensorPin2 = A11; //mq5
-const int sensorPin3 = A13; //mq6
-const int sensorPin4 = A15; //mq8
-const int sensorPin5 = A8; //mq9
-const int sensorPin6 = A0; //mics_Vred
-const int sensorPin7 = A1; //mics_Vnox
-const int sensorPin8 = A2; //mq214
+const int sensorPin0 = A15; //mq2
+const int sensorPin1 = A14; //mq3
+const int sensorPin2 = A13; //mq5
+const int sensorPin3 = A12; //mq6
+const int sensorPin4 = A11; //mq8
+const int sensorPin5 = A7; //mq9
+const int sensorPin6 = A10; //mics_Vred
+const int sensorPin7 = A9; //mics_Vnox
+const int sensorPin8 = A8; //mq214
 
 int sensorData0;
 int sensorData1;
